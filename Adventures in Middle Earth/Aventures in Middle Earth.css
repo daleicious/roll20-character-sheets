@@ -431,6 +431,7 @@ button[type=roll] * {
 .sheet-saving-throw input[type=text],
 .sheet-skill input[type=text],
 .sheet-ac-init-speed-container input,
+.sheet-exhaustion-miserable-container input,
 .sheet-hp input,
 .sheet-hdice-dsaves-container input[type=text],
 .sheet-hdice-dsaves-container input[type=number],
@@ -500,6 +501,7 @@ button[type=roll] * {
 .sheet-skills-container .sheet-label span,
 .sheet-textbox-container .sheet-label span,
 .sheet-ac-init-speed-container span.sheet-label,
+.sheet-exhaustion-miserable-container span.sheet-label,
 .sheet-hp span,
 .sheet-hdice-dsaves-container span,
 .sheet-attacks span,
@@ -555,6 +557,12 @@ button[type=roll] * {
     margin-bottom: 10px;
 }
 
+.sheet-exhaustion-miserable-container,
+{
+    width: 245px;
+    margin-bottom: 10px;
+}
+
 .sheet-ac-init-speed-container div {
     width: 75px;
     height: 45px;
@@ -571,6 +579,25 @@ button[type=roll] * {
 .sheet-ac-init-speed-container button[type=roll] {
     display: block;
 }
+
+.sheet-exhaustion-miserable-container div {
+    width: 116px;
+    height: 45px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sheet-exhaustion {
+    margin-right: 3px;
+}
+
+.sheet-exhaustion-miserable-container span.sheet-label {
+    margin-top: 0px;
+}
+
+
 
 .sheet-hp,
 .sheet-subcontainer,
@@ -2484,8 +2511,11 @@ button[type=roll] * {
     display: block;
 }
 
-.sheet-hlabel-container [name="attr_race"] {
+.sheet-hlabel-container [name="attr_culture"] {
     width: 200px;
+}
+.sheet-hlabel-container [name="attr_shadow_weakness"] {
+    width: 158px;
 }
 .sheet-hlabel-container [name="attr_alignment"] {
     width: 180px;
@@ -2613,11 +2643,11 @@ button[type=roll] * {
     width: 121px;
 }
 
-.lang-es .sheet-hlabel-container input[name="attr_race"] {
+.lang-es .sheet-hlabel-container input[name="attr_culture"] {
     width: 190px;
 }
 
-.lang-es .sheet-hlabel-container input[name="attr_alignment"] {
+.lang-es .sheet-hlabel-container input[name="attr_shadow_weakness"] {
     width: 170px;
 }
 

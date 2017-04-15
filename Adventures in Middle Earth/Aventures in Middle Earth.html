@@ -1290,10 +1290,22 @@
                 <input type="number" name="attr_hp" title="@{hp}">
                 <span class="label" data-i18n="hp-current-u">CURRENT HIT POINTS</span>
             </div>
+            <div class="exhaustion-miserable-container">
+                <div class="exhaustion">
+                    <input type="text" name="attr_exhaustion" title="@{exhaustion}">
+                    <span class="label" data-i18n="exhaustion-u">EXHAUSTION</span>
+                </div>
+                <div class="miserable">
+                    <input type="text" name="attr_miserable" title="@{miserable}">
+                    <span class="label" data-i18n="miserable-u">MISERABLE</span>
+                </div>
+            </div>
+            <!--
             <div class="hp" style="height: 56px;">
                 <input type="number" name="attr_hp_temp" title="@{hp_temp}">
                 <span class="label" data-i18n="hp-temp-u">TEMPORARY HIT POINTS</span>
             </div>
+            -->
             <div class="hdice-dsaves-container" style="width: 242px;">
                 <div class="subcontainer">
                     <div class="top">
@@ -7826,7 +7838,7 @@
             }
             else {
                 setAttrs({version: "1.6"});
-                console.log("5th Edition OGL by Roll20 version " + v["version"]);
+                console.log("Adventures in Middle Earth by Dale Darling based on 5th Edition OGL by Roll20 version " + v["version"]);
             }
         });
     };
