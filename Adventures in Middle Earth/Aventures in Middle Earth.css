@@ -432,6 +432,7 @@ button[type=roll] * {
 .sheet-skill input[type=text],
 .sheet-ac-init-speed-container input,
 .sheet-exhaustion-miserable-container input,
+.sheet-standard-of-living-container input,
 .sheet-hp input,
 .sheet-hdice-dsaves-container input[type=text],
 .sheet-hdice-dsaves-container input[type=number],
@@ -455,6 +456,11 @@ button[type=roll] * {
     color: black;
 }
 
+.sheet-standard-of-living-container input,
+{
+    font-size: 14px;
+}
+
 .sheet-resources input[type=number],
 .sheet-hdice-dsaves-container input[type=number]
 {
@@ -463,6 +469,7 @@ button[type=roll] * {
 }
 
 .sheet-saving-throw-container,
+.sheet-standard-of-living-container,
 .sheet-skills-container 
 {
     width: 165px;
@@ -498,6 +505,7 @@ button[type=roll] * {
 }
 
 .sheet-saving-throw-container .sheet-label span,
+.sheet-standard-of-living-container .sheet-label span,
 .sheet-skills-container .sheet-label span,
 .sheet-textbox-container .sheet-label span,
 .sheet-ac-init-speed-container span.sheet-label,
