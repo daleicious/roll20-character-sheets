@@ -1042,6 +1042,13 @@
                         <input type="text" name="attr_charisma" title="@{charisma}" value="10">
                     </div>
                 </div>
+                <div class="attr-container">
+                    <button type="roll" data-i18n="shadow-u">SHADOW</button>
+                    <input class="attr" type="text" name="attr_shadow_points" title="@{shadow_points}" value="0" >
+                    <div class="attr-mod">
+                        <input type="text" name="attr_shadow_permanent" title="@{shadow_permanent}" value="0">
+                    </div>
+                </div>
             </div>
             <div class="skills-saves-container">
                 <div class="insp-prof-container">
@@ -1263,7 +1270,7 @@
             </div>
             -->
             <div class="textbox-container">
-                <textarea name="attr_other_proficiencies_and_languages" style="min-height: 91px; height: 91px;"></textarea>
+                <textarea name="attr_other_proficiencies_and_languages" style="min-height: 91px; height: 111px;"></textarea>
                 <div class="label">
                     <span style="margin-top: -10px;" data-i18n="other-prof-langs-u">OTHER PROFICIENCIES & LANGUAGES</span>
                 </div>

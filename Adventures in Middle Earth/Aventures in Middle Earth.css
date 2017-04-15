@@ -254,7 +254,7 @@ input[type=radio].sheet-tab-button.sheet-spells + span {
 
 .sheet-attributes-container {
     width: 70px;
-    height: 570px;
+    height: 660px;
     margin-right: 5px;
     display: inline-block;
     vertical-align: top;
@@ -357,7 +357,7 @@ button[type=roll] * {
 
 .sheet-skills-saves-container {
     width: 165px;
-    height: 570px;
+    height: 660px;
     margin-right: 5px;
     display: inline-block;
     vertical-align: top;
